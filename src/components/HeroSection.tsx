@@ -28,20 +28,20 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
-        <div className="inline-block bg-secondary/20 border border-secondary/30 rounded-full px-5 py-1.5 mb-6">
-          <span className="font-body text-secondary text-xs md:text-sm font-semibold tracking-wide uppercase">
+        <div className="inline-block bg-primary/20 border border-primary/30 rounded-full px-5 py-1.5 mb-6">
+          <span className="font-body text-primary text-xs md:text-sm font-semibold tracking-wide uppercase">
             Aula experimental gratuita
           </span>
         </div>
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
-          <span className="text-gradient-red">INTENSO</span> E<br />
-          <span className="text-gradient-gold">VICIANTE</span> QUE EXISTE
+          <span className="text-gradient-gold">INTENSO</span> E<br />
+          <span className="text-gradient-red">VICIANTE</span> QUE EXISTE
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
-          Queime até <strong className="text-secondary font-semibold">1.000 calorias por hora</strong>,
+          Queime até <strong className="text-primary font-semibold">1.000 calorias por hora</strong>,
           melhore seu condicionamento e descubra o esporte que vai transformar sua rotina.
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
