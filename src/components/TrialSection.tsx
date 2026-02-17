@@ -12,16 +12,16 @@ const details = [
 
 const TrialSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-20 md:py-28 bg-section-light">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-block bg-secondary/20 border border-secondary/30 rounded-full px-5 py-1.5 mb-6">
-            <span className="font-body text-secondary text-xs font-bold tracking-wide uppercase">
+          <div className="inline-block bg-primary/20 border border-primary/30 rounded-full px-5 py-1.5 mb-6">
+            <span className="font-body text-primary text-xs font-bold tracking-wide uppercase">
               100% Gratuita
             </span>
           </div>
 
-          <h2 className="font-display text-4xl md:text-6xl text-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))] mb-4">
             AULA <span className="text-gradient-gold">EXPERIMENTAL</span>
           </h2>
           <p className="text-muted-foreground font-body text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
@@ -31,9 +31,9 @@ const TrialSection = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 text-left max-w-2xl mx-auto">
             {details.map((d) => (
-              <div key={d.text} className="flex items-center gap-3 bg-card rounded-xl p-4 border border-border">
+              <div key={d.text} className="flex items-center gap-3 bg-white/80 rounded-xl p-4 border border-border/30">
                 <d.icon className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="font-body text-sm text-foreground/90">{d.text}</span>
+                <span className="font-body text-sm text-[hsl(var(--section-light-foreground))]/90">{d.text}</span>
               </div>
             ))}
           </div>

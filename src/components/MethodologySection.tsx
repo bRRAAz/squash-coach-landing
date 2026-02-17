@@ -30,17 +30,17 @@ const steps = [
 
 const MethodologySection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-20 md:py-28 bg-section-light">
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
           <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
             Metodologia
           </p>
-          <h2 className="font-display text-4xl md:text-6xl text-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))] mb-4">
             SUA PRIMEIRA AULA <span className="text-gradient-gold">NÃO É</span> SOBRE TÉCNICA
           </h2>
           <p className="text-muted-foreground font-body text-base md:text-lg max-w-2xl mx-auto">
-            É sobre <strong className="text-foreground">experiência</strong>. Você precisa sentir o esporte antes de qualquer coisa.
+            É sobre <strong className="text-[hsl(var(--section-light-foreground))]">experiência</strong>. Você precisa sentir o esporte antes de qualquer coisa.
           </p>
         </div>
 
@@ -48,13 +48,13 @@ const MethodologySection = () => {
           {steps.map((s, i) => (
             <div
               key={s.title}
-              className="flex items-start gap-5 bg-card rounded-xl p-6 border border-border hover:border-primary/30 transition-all duration-300"
+              className="flex items-start gap-5 bg-white/80 rounded-xl p-6 border border-border/30 hover:border-primary/30 transition-all duration-300"
             >
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-display text-lg">
+              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/15 flex items-center justify-center text-primary font-display text-lg">
                 {i + 1}
               </div>
               <div>
-                <h3 className="font-display text-lg text-foreground mb-1">{s.title}</h3>
+                <h3 className="font-display text-lg text-[hsl(var(--section-light-foreground))] mb-1">{s.title}</h3>
                 <p className="text-muted-foreground font-body text-sm leading-relaxed">{s.description}</p>
               </div>
             </div>
