@@ -24,7 +24,7 @@ const ProblemSection = () => {
             O problema
           </p>
           <h2 className="font-display text-4xl md:text-6xl text-foreground">
-            POR QUE A MAIORIA <span className="text-gradient-green">DESISTE</span>
+            POR QUE A MAIORIA <span className="text-gradient-red">DESISTE</span>
           </h2>
         </div>
 

@@ -1,4 +1,5 @@
 import heroImage from "@/assets/hero-squash.jpg";
+import logoImg from "@/assets/logo.jpeg";
 import { MessageCircle } from "lucide-react";
 
 const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pela%20sua%20página%20e%20quero%20agendar%20minha%20aula%20experimental%20gratuita%20de%20squash";
@@ -16,6 +17,16 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>
 
+      {/* Logo */}
+      <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20">
+        <img
+          src={logoImg}
+          alt="Vieira Squash"
+          className="h-10 md:h-14 w-auto"
+          loading="eager"
+        />
+      </div>
+
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
         <div className="inline-block bg-secondary/20 border border-secondary/30 rounded-full px-5 py-1.5 mb-6">
           <span className="font-body text-secondary text-xs md:text-sm font-semibold tracking-wide uppercase">
@@ -25,7 +36,7 @@ const HeroSection = () => {
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
-          <span className="text-gradient-green">INTENSO</span> E<br />
+          <span className="text-gradient-red">INTENSO</span> E<br />
           <span className="text-gradient-gold">VICIANTE</span> QUE EXISTE
         </h1>
 
