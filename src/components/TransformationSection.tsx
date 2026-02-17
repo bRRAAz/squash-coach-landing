@@ -34,7 +34,7 @@ const TransformationSection = () => {
             Jornada
           </p>
           <h2 className="font-display text-4xl md:text-6xl text-foreground">
-            SUA <span className="text-gradient-green">TRANSFORMAÇÃO</span>
+            SUA <span className="text-gradient-red">TRANSFORMAÇÃO</span>
           </h2>
         </div>
 

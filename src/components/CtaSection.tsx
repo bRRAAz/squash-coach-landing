@@ -13,7 +13,7 @@ const CtaSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">
           SUA EVOLUÇÃO<br />
-          <span className="text-gradient-green">COMEÇA AGORA</span>
+          <span className="text-gradient-red">COMEÇA AGORA</span>
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground max-w-xl mx-auto mb-4 leading-relaxed">
           Poucas vagas disponíveis na agenda do Vitor Vieira.
