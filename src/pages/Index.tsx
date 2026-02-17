@@ -1,20 +1,24 @@
 import HeroSection from "@/components/HeroSection";
+import ProblemSection from "@/components/ProblemSection";
 import BenefitsSection from "@/components/BenefitsSection";
-import AboutSection from "@/components/AboutSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import AuthoritySection from "@/components/AuthoritySection";
+import MethodologySection from "@/components/MethodologySection";
+import TransformationSection from "@/components/TransformationSection";
+import TrialSection from "@/components/TrialSection";
 import CtaSection from "@/components/CtaSection";
-import Footer from "@/components/Footer";
 import WhatsAppFab from "@/components/WhatsAppFab";
 
 const Index = () => {
   return (
     <main>
       <HeroSection />
+      <ProblemSection />
       <BenefitsSection />
-      <AboutSection />
-      <TestimonialsSection />
+      <AuthoritySection />
+      <MethodologySection />
+      <TransformationSection />
+      <TrialSection />
       <CtaSection />
-      <Footer />
       <WhatsAppFab />
     </main>
   );
