@@ -8,7 +8,7 @@ const stages = [
   {
     step: "02",
     title: "EVOLUÇÃO",
-    description: "Em ~2 meses: técnica sólida, condicionamento e confiança na quadra.",
+    description: "2 a 4 meses de treino estruturado, você perceberá uma evolução consistente na sua técnica e nos fundamentos essenciais do squash",
     color: "text-primary",
   },
   {

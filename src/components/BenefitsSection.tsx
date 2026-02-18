@@ -39,11 +39,8 @@ const BenefitsSection = () => {
     <section className="py-20 md:py-28 bg-section-light">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
-            Por que squash
-          </p>
           <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))]">
-            BENEFÍCIOS QUE VOCÊ <span className="text-gradient-gold">SENTE</span>
+            BENEFÍCIOS DO <span className="text-gradient-gold">SQUASH</span>
           </h2>
         </div>
 
@@ -52,8 +49,8 @@ const BenefitsSection = () => {
             <div
               key={b.title}
               className={`group rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${b.highlight
-                  ? "bg-primary/10 border-primary/30 hover:border-primary/50"
-                  : "bg-white/80 border-border/30 hover:border-primary/30"
+                ? "bg-primary/10 border-primary/30 hover:border-primary/50"
+                : "bg-white/80 border-border/30 hover:border-primary/30"
                 }`}
             >
               <div className="w-12 h-12 rounded-xl bg-primary/15 flex items-center justify-center mb-5 group-hover:bg-cta-gradient group-hover:scale-110 transition-all duration-300">

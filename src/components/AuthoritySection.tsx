@@ -4,7 +4,7 @@ import treinadorImg from "@/assets/foto-treinador.jpeg";
 const credentials = [
   { icon: Shield, label: "Certificado pela World Squash Federation" },
   { icon: Calendar, label: "28 anos praticando squash" },
-  { icon: Award, label: "20 anos como professor — desde 2006" },
+  { icon: Award, label: "20 anos como treinador — desde 2006" },
   { icon: Trophy, label: "5º melhor jogador do Brasil em 2018" },
   { icon: Star, label: "Treinador do Clube Monte Líbano (2008–2017)" },
   { icon: Users, label: "Mais de 1.000 alunos treinados" },
@@ -17,7 +17,7 @@ const AuthoritySection = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
-              Seu treinador
+              Treinador
             </p>
             <h2 className="font-display text-4xl md:text-6xl text-foreground mb-4">
               VITOR <span className="text-gradient-gold">VIEIRA</span>
@@ -38,7 +38,7 @@ const AuthoritySection = () => {
             <div className="text-center lg:text-left">
               <p className="text-muted-foreground font-body text-base md:text-lg max-w-xl leading-relaxed">
                 Atleta profissional e treinador premium na zona sul de São Paulo.
-                Uma carreira inteira dedicada a formar jogadores de squash de alto nível.
+                Uma carreira inteira dedicada a formar jogadores de squash a alcançar o alto nível.
               </p>
             </div>
           </div>

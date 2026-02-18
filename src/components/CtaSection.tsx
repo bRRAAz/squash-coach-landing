@@ -24,15 +24,6 @@ const CtaSection = () => {
           Treinador certificado pela World Squash Federation
         </p>
 
-        <a
-          href={WHATSAPP_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-12 py-6 rounded-full font-body font-bold text-lg md:text-xl hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-2xl animate-pulse-glow"
-        >
-          <MessageCircle className="w-7 h-7" />
-          Quero minha aula gratuita
-        </a>
 
         <p className="mt-8 font-body text-xs text-muted-foreground/50">
           © {new Date().getFullYear()} Vitor Vieira — Treinador de Squash Premium

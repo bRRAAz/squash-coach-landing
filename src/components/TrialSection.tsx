@@ -3,7 +3,7 @@ import { Clock, UserCheck, Package, MapPin, AlertCircle, MessageCircle } from "l
 const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pela%20sua%20página%20e%20quero%20agendar%20minha%20aula%20experimental%20gratuita%20de%20squash";
 
 const details = [
-  { icon: Clock, text: "Duração: 30, 45 ou 60 minutos" },
+  { icon: Clock, text: "Duração: 30 minutos" },
   { icon: UserCheck, text: "Aula individual ou em dupla" },
   { icon: Package, text: "Equipamento incluso (raquete e bolinha)" },
   { icon: MapPin, text: "Zona Sul de São Paulo — presencial" },
@@ -15,15 +15,18 @@ const TrialSection = () => {
     <section className="py-20 md:py-28 bg-section-light">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center">
+
+
+          <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))] mb-4">
+            AULA <span className="text-gradient-gold">EXPERIMENTAL</span>
+          </h2>
+
           <div className="inline-block bg-primary/20 border border-primary/30 rounded-full px-5 py-1.5 mb-6">
             <span className="font-body text-primary text-xs font-bold tracking-wide uppercase">
               100% Gratuita
             </span>
           </div>
 
-          <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))] mb-4">
-            AULA <span className="text-gradient-gold">EXPERIMENTAL</span>
-          </h2>
           <p className="text-muted-foreground font-body text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
             Sua primeira aula é por nossa conta. Sem compromisso, sem pegadinha.
             Venha sentir o squash na prática.

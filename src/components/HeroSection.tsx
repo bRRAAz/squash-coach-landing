@@ -19,11 +19,6 @@ const HeroSection = () => {
 
 
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
-        <div className="inline-block bg-primary/20 border border-primary/30 rounded-full px-5 py-1.5 mb-6">
-          <span className="font-body text-primary text-xs md:text-sm font-semibold tracking-wide uppercase">
-            Aula experimental gratuita
-          </span>
-        </div>
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
