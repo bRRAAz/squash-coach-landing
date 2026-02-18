@@ -56,7 +56,7 @@ const HeroSection = () => {
       </div>
 
       {/* Mouse scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-24 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-foreground/20 rounded-full flex justify-center">
           <div className="w-1.5 h-3 bg-primary mt-2 rounded-full" />
         </div>
