@@ -6,7 +6,7 @@ const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pe
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img
@@ -27,7 +27,7 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 text-center py-20">
+      <div className="relative z-10 container mx-auto px-6 text-center pt-24 pb-20 md:pt-0 md:pb-0">
         {/* Removi a div de logo que estava aqui no centro para limpar o visual */}
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
