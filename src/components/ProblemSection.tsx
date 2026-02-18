@@ -27,7 +27,7 @@ const ProblemSection = () => {
             O problema
           </p>
           <h2 className="font-display text-4xl md:text-6xl text-foreground">
-            POR QUE A MAIORIA <span className="text-secondary drop-shadow-sm">DESISTE</span>
+            POR QUE A MAIORIA <span className="text-gradient-red drop-shadow-sm">DESISTE</span>
           </h2>
         </div>
 
@@ -50,7 +50,7 @@ const ProblemSection = () => {
         </div>
 
         <p className="text-center mt-12 font-body text-base md:text-lg text-foreground/80 max-w-2xl mx-auto">
-          A boa notícia? Com o <strong className="text-secondary">treinador certo</strong>,
+          A boa notícia? Com o <strong className="text-primary">treinador certo</strong>,
           você sente os resultados já na primeira aula.
         </p>
       </div>

@@ -15,7 +15,7 @@ const stages = [
     step: "03",
     title: "CAMPEONATOS",
     description: "Preparado para competir em torneios amadores e sentir a adrenalina.",
-    color: "text-secondary",
+    color: "text-accent",
   },
   {
     step: "04",
@@ -30,7 +30,7 @@ const TransformationSection = () => {
     <section className="py-20 md:py-28 bg-section-alt">
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
-          <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
+          <p className="text-accent font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
             Jornada
           </p>
           <h2 className="font-display text-4xl md:text-6xl text-foreground">
