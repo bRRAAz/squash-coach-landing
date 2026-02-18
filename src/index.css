@@ -6,73 +6,85 @@
 
 @layer base {
   :root {
-    --background: 30 8% 6%;
-    --foreground: 40 20% 95%;
+  /* --- BASE: Slate Dark (Fundo Azulado Profundo) --- */
+  /* Substitui os tons marrons (hue 30) por tons slate (hue 222) */
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
 
-    --card: 30 8% 9%;
-    --card-foreground: 40 20% 95%;
+  /* Cards ligeiramente mais claros que o fundo */
+  --card: 222 47% 13%;
+  --card-foreground: 210 40% 98%;
 
-    --popover: 30 8% 9%;
-    --popover-foreground: 40 20% 95%;
+  --popover: 222 47% 13%;
+  --popover-foreground: 210 40% 98%;
 
-    /* PRIMARY: Agora é o Roxo (#9993c7) */
-    --primary: 247 31% 68%;
-    --primary-foreground: 30 8% 6%;
-    /* Texto escuro para contraste */
+  /* --- CORES PRINCIPAIS --- */
+  
+  /* PRIMARY: Amarelo "Double Dot" (Vibrante/Bola Pro) */
+  --primary: 45 93% 47%;
+  --primary-foreground: 222 47% 11%; /* Texto escuro no botão amarelo */
 
-    /* SECONDARY: Agora é o Gold (Substituindo o vermelho) */
-    --secondary: 43 99% 68%;
-    --secondary-foreground: 30 8% 6%;
-    /* Texto escuro para contraste */
+  /* SECONDARY: Cinza Metálico (Para detalhes técnicos) */
+  --secondary: 217 19% 27%;
+  --secondary-foreground: 210 40% 98%;
 
-    --muted: 34 10% 18%;
-    --muted-foreground: 34 13% 53%;
+  /* ACCENT: Azul Elétrico (Quadra/Paredes/Links) */
+  --accent: 199 89% 48%;
+  --accent-foreground: 210 40% 98%;
 
-    /* ACCENT: Mantive como Gold também para consistência em interações */
-    --accent: 43 99% 68%;
-    --accent-foreground: 30 8% 6%;
+  /* --- ELEMENTOS DE UI (Ajustados para o tema Slate) --- */
+  
+  /* Muted: Cinza azulado escuro */
+  --muted: 217 30% 20%;
+  --muted-foreground: 215 20% 65%;
 
-    /* DESTRUCTIVE: Mantive vermelho pois é padrão para erros, 
-       mas se quiser mudar, avise */
-    --destructive: 358 84% 53%;
-    --destructive-foreground: 0 0% 100%;
+  /* Destructive: Mantido vermelho padrão */
+  --destructive: 358 84% 53%;
+  --destructive-foreground: 0 0% 100%;
 
-    --border: 34 8% 18%;
-    --input: 34 8% 18%;
+  /* Bordas sutis no tom do tema */
+  --border: 217 30% 20%;
+  --input: 217 30% 20%;
 
-    /* RING: Acompanha a cor primária (Roxo) */
-    --ring: 247 31% 68%;
+  /* Ring: Acompanha a cor primária (Amarelo) para foco */
+  --ring: 45 93% 47%;
 
-    --radius: 0.75rem;
+  --radius: 0.75rem;
 
-    /* Gradients atualizados para usar as novas cores */
-    --hero-gradient: linear-gradient(180deg, hsl(30 8% 3% / 0.6) 0%, hsl(30 8% 6% / 0.85) 60%, hsl(30 8% 6%) 100%);
+  /* --- GRADIENTES ATUALIZADOS --- */
+  
+  /* Hero Gradient: Do Slate escuro para transparente */
+  --hero-gradient: linear-gradient(180deg, hsl(222 47% 10% / 0.6) 0%, hsl(222 47% 11% / 0.9) 60%, hsl(222 47% 11%) 100%);
 
-    /* CTA Gradient: Mistura do Roxo com Gold */
-    --cta-gradient: linear-gradient(135deg, hsl(247 31% 68%) 0%, hsl(43 99% 68%) 100%);
+  /* CTA Gradient: Do Amarelo (Primary) para Azul (Accent) */
+  --cta-gradient: linear-gradient(135deg, hsl(45 93% 47%) 0%, hsl(199 89% 48%) 100%);
 
-    --gold-gradient: linear-gradient(135deg, hsl(43 99% 68%) 0%, hsl(40 90% 55%) 100%);
+  /* Gold Gradient: Mantido para detalhes específicos */
+  --gold-gradient: linear-gradient(135deg, hsl(45 93% 47%) 0%, hsl(40 90% 55%) 100%);
 
-    --section-alt: 30 8% 8%;
-    --section-alt-foreground: 40 20% 95%;
-    --section-light: 40 20% 96%;
-    --section-light-foreground: 30 8% 10%;
-    --whatsapp: 142 70% 45%;
-    --whatsapp-foreground: 0 0% 100%;
+  /* Cores de Seção Alternativa (Ex: Rodapé) */
+  --section-alt: 220 40% 10%;
+  --section-alt-foreground: 210 40% 98%;
+  --section-light: 210 20% 96%;
+  --section-light-foreground: 222 47% 11%;
 
-    --font-display: 'Bebas Neue', sans-serif;
-    --font-body: 'Inter', sans-serif;
+  --whatsapp: 142 70% 45%;
+  --whatsapp-foreground: 0 0% 100%;
 
-    /* Sidebar adjustment (optional) */
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
+  /* --- FONTES (Mantidas) --- */
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* --- SIDEBAR (Mantido original, mas ajustado se necessário) --- */
+  --sidebar-background: 222 47% 10%; /* Ajustado para Dark */
+  --sidebar-foreground: 240 5.3% 26.1%;
+  --sidebar-primary: 240 5.9% 10%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 4.8% 95.9%;
+  --sidebar-accent-foreground: 240 5.9% 10%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+}
 }
 
 @layer base {
