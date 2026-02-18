@@ -20,7 +20,7 @@ const AuthoritySection = () => {
               Seu treinador
             </p>
             <h2 className="font-display text-4xl md:text-6xl text-foreground mb-4">
-              VITOR <span className="text-gradient-red">VIEIRA</span>
+              VITOR <span className="text-gradient-gold">VIEIRA</span>
             </h2>
           </div>
 

@@ -5,7 +5,7 @@ const benefits = [
     icon: Flame,
     title: "ALTA QUEIMA CALÓRICA",
     description: "Até 1.000 calorias por hora — um dos esportes com maior gasto energético do mundo.",
-    highlight: true,
+    highlight: false,
   },
   {
     icon: Heart,
@@ -51,11 +51,10 @@ const BenefitsSection = () => {
           {benefits.map((b) => (
             <div
               key={b.title}
-              className={`group rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
-                b.highlight
+              className={`group rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${b.highlight
                   ? "bg-primary/10 border-primary/30 hover:border-primary/50"
                   : "bg-white/80 border-border/30 hover:border-primary/30"
-              }`}
+                }`}
             >
               <div className="w-12 h-12 rounded-xl bg-primary/15 flex items-center justify-center mb-5 group-hover:bg-cta-gradient group-hover:scale-110 transition-all duration-300">
                 <b.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors" />

@@ -17,15 +17,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>
 
-      {/* Logo */}
-      <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20">
-        <img
-          src={logoImg}
-          alt="Vieira Squash"
-          className="h-10 md:h-14 w-auto"
-          loading="eager"
-        />
-      </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
         <div className="inline-block bg-primary/20 border border-primary/30 rounded-full px-5 py-1.5 mb-6">
@@ -37,7 +28,7 @@ const HeroSection = () => {
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
           <span className="text-gradient-gold">INTENSO</span> E<br />
-          <span className="text-gradient-red">VICIANTE</span> QUE EXISTE
+          <span className="text-gradient-green">VICIANTE</span> QUE EXISTE
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
