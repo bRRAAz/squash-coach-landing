@@ -1,5 +1,6 @@
-import { MessageCircle, ShieldCheck } from "lucide-react";
+import { Instagram, MessageCircle, ShieldCheck } from "lucide-react";
 import logoVitor from "../assets/logo_vitor.png";
+const INSTAGRAM_LINK = "https://instagram.com/Vitorsvieiras";
 
 const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pela%20sua%20página%20e%20quero%20agendar%20minha%20aula%20experimental%20gratuita%20de%20squash";
 
@@ -36,16 +37,27 @@ const CtaSection = () => {
           Treinador certificado pela World Squash Federation
         </p>
 
-        {/* Botão de CTA que faltava no seu snippet para completar o footer */}
-        <a
-          href={WHATSAPP_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-10 py-5 rounded-full font-body font-bold text-base md:text-lg hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-xl mb-12"
-        >
-          <MessageCircle className="w-6 h-6" />
-          Agendar pelo WhatsApp
-        </a>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-whatsapp text-whatsapp-foreground px-8 py-4 rounded-full font-body font-bold text-base hover:opacity-90 transition-all hover:scale-105 shadow-lg"
+          >
+            <MessageCircle className="w-5 h-5" />
+            WhatsApp
+          </a>
+
+          <a
+            href={INSTAGRAM_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white px-8 py-4 rounded-full font-body font-bold text-base hover:opacity-90 transition-all hover:scale-105 shadow-lg"
+          >
+            <Instagram className="w-5 h-5" />
+            Instagram
+          </a>
+        </div>
 
         <p className="mt-8 font-body text-xs text-muted-foreground/50 border-t border-white/5 pt-8">
           © {new Date().getFullYear()} Vitor Vieira — Treinador de Squash Premium

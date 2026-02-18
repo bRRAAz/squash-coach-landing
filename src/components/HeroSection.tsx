@@ -7,6 +7,7 @@ const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pe
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
@@ -17,15 +18,17 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>
 
+      {/* --- LOGO MINIMALISTA NO CANTO SUPERIOR ESQUERDO --- */}
+      <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
+        <img
+          src={logoVitor}
+          alt="Logo Vitor Vieira"
+          className="h-8 md:h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
+        />
+      </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
-        <div className="mb-20 flex justify-center">
-          <img
-            src={logoVitor}
-            alt="Logo Vitor Vieira"
-            className="h-16 md:h-16 w-auto object-contain brightness-110"
-          />
-        </div>
+        {/* Removi a div de logo que estava aqui no centro para limpar o visual */}
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
@@ -52,6 +55,7 @@ const HeroSection = () => {
         </a>
       </div>
 
+      {/* Mouse scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-foreground/20 rounded-full flex justify-center">
           <div className="w-1.5 h-3 bg-primary mt-2 rounded-full" />
