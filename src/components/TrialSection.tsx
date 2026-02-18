@@ -33,10 +33,16 @@ const TrialSection = () => {
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 text-left max-w-2xl mx-auto">
-            {details.map((d) => (
-              <div key={d.text} className="flex items-center gap-3 bg-white/80 rounded-xl p-4 border border-border/30">
+            {details.map((d, index) => (
+              <div
+                key={index}
+                className={`flex items-center gap-3 bg-white/80 rounded-xl p-4 border border-border/30 
+        ${details.length % 2 !== 0 && index === details.length - 1 ? 'sm:col-span-2 sm:justify-self-center sm:min-w-[calc(50%-8px)]' : ''}`}
+              >
                 <d.icon className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="font-body text-sm text-[hsl(var(--section-light-foreground))]/90">{d.text}</span>
+                <span className="font-body text-sm text-[hsl(var(--section-light-foreground))]/90">
+                  {d.text}
+                </span>
               </div>
             ))}
           </div>
