@@ -16,7 +16,7 @@ const AuthoritySection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
+            <p className="text-accent font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
               Treinador
             </p>
             <h2 className="font-display text-4xl md:text-6xl text-foreground mb-4">

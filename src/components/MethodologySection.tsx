@@ -33,7 +33,7 @@ const MethodologySection = () => {
     <section className="py-20 md:py-28 bg-section-light">
       <div className="container mx-auto px-6">
         <div className="text-center mb-14">
-          <p className="text-secondary font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
+          <p className="text-accent font-body text-xs uppercase tracking-[0.3em] mb-3 font-semibold">
             Metodologia
           </p>
           <h2 className="font-display text-4xl md:text-6xl text-[hsl(var(--section-light-foreground))] mb-4">
