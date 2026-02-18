@@ -33,7 +33,7 @@ const HeroSection = () => {
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
           <span className="text-gradient-gold">INTENSO</span> E<br />
-          <span className="text-gradient-green">VICIANTE</span> QUE EXISTE
+          <span className="text-primary">VICIANTE</span> QUE EXISTE
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
