@@ -7,7 +7,6 @@
 @layer base {
   :root {
   /* --- BASE: Slate Dark (Fundo Azulado Profundo) --- */
-  /* Substitui os tons marrons (hue 30) por tons slate (hue 222) */
   --background: 222 47% 11%;
   --foreground: 210 40% 98%;
 
