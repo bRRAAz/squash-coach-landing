@@ -1,5 +1,5 @@
 import heroImage from "@/assets/hero-squash.jpg";
-import logoImg from "@/assets/logo.jpeg";
+import logoVitor from "../assets/logo_vitor.png";
 import { MessageCircle } from "lucide-react";
 
 const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pela%20sua%20página%20e%20quero%20agendar%20minha%20aula%20experimental%20gratuita%20de%20squash";
@@ -19,6 +19,13 @@ const HeroSection = () => {
 
 
       <div className="relative z-10 container mx-auto px-6 text-center py-20">
+        <div className="mb-20 flex justify-center">
+          <img
+            src={logoVitor}
+            alt="Logo Vitor Vieira"
+            className="h-16 md:h-16 w-auto object-contain brightness-110"
+          />
+        </div>
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
