@@ -6,7 +6,7 @@ const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pe
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-start md:items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img
@@ -38,29 +38,21 @@ const HeroSection = () => {
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
           Queime até <strong className="text-primary font-semibold">1.000 calorias por hora</strong>,
-          melhore seu condicionamento e descubra o esporte que vai transformar sua rotina.
+          melhore seu condicionamento e descubra o esporte que vai transformar sua vida.
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
           Mesmo que você nunca tenha pisado numa quadra de squash.
         </p>
 
-        <a
-          href={WHATSAPP_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-whatsapp text-whatsapp-foreground px-10 py-5 rounded-full font-body font-bold text-base md:text-lg hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-xl animate-pulse-glow"
-        >
-          <MessageCircle className="w-6 h-6" />
-          Quero agendar minha aula experimental gratuita
-        </a>
-      </div>
 
-      {/* Mouse scroll indicator */}
-      <div className="absolute bottom-32 md:bottom-0 left-1/2 -translate-x-1/2 animate-bounce">
+      </div>
+      <div className="absolute bottom-20 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-foreground/20 rounded-full flex justify-center">
           <div className="w-1.5 h-3 bg-primary mt-2 rounded-full" />
         </div>
       </div>
+
+
     </section>
   );
 };

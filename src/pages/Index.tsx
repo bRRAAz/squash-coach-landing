@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <main>
       <HeroSection />
-      <ProblemSection />
+      {/* <ProblemSection /> */}
       <BenefitsSection />
       <AuthoritySection />
       <MethodologySection />
