@@ -23,12 +23,13 @@ const HeroSection = () => {
       <div className="absolute top-6 left-6 md:top-10 md:left-12 z-20">
         <img
           src={logoVitor}
-          alt="Logo Vitor Vieira"
+          alt="Professor Vitor Vieira dando aulas particulares de squash em São Paulo"
           className="h-8 md:h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
         />
         <p className="text-foreground/50 font-body text-xs ml-3">
           Aulas Particulares • Domicílio e Condomínios
         </p>
+        <p className="sr-only">Oferecemos aulas particulares de squash personalizadas na região de São Paulo, com foco em iniciantes e treinamento intensivo.</p>
       </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center pt-24 pb-20 md:pt-0 md:pb-0">
