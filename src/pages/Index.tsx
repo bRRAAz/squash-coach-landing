@@ -7,6 +7,7 @@ import TransformationSection from "@/components/TransformationSection";
 import TrialSection from "@/components/TrialSection";
 import CtaSection from "@/components/CtaSection";
 import WhatsAppFab from "@/components/WhatsAppFab";
+import VideoSection from "@/components/VideoSection";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <HeroSection />
       {/* <ProblemSection /> */}
       <BenefitsSection />
+      <VideoSection />
       <AuthoritySection />
       <MethodologySection />
       <TransformationSection />

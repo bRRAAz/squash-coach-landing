@@ -14,13 +14,15 @@ const CtaSection = () => {
 
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* LOGO AREA - Ajustada para PNG transparente */}
-        <div className="mb-20 flex justify-center">
+        <div className="mb-20 flex flex-col items-center justify-center">
           <img
             src={logoVitor}
             alt="Logo Vitor Vieira"
-            className="h-16 md:h-16 w-auto object-contain brightness-110"
+            className="h-16 md:h-16 w-auto object-contain brightness-110 mb-4"
           />
+
         </div>
+
 
         <h2 className="font-display text-4xl md:text-6xl lg:text-7xl text-foreground mb-6">
           SUA EVOLUÇÃO<br />

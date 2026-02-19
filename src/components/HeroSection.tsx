@@ -15,6 +15,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
           loading="eager"
         />
+
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>
 
@@ -25,6 +26,9 @@ const HeroSection = () => {
           alt="Logo Vitor Vieira"
           className="h-8 md:h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
         />
+        <p className="text-foreground/50 font-body text-xs ml-3">
+          Aulas Particulares • Domicílio e Condomínios
+        </p>
       </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center pt-24 pb-20 md:pt-0 md:pb-0">
