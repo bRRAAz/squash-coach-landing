@@ -45,7 +45,7 @@ const HeroSection = () => {
           melhore seu condicionamento e descubra o esporte que vai transformar sua vida.
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
-          Mesmo que você nunca tenha pisado numa quadra de <span className="text-primary text-2xl font-display">SQUASH</span>.
+          Facil de jogar mesmo que você nunca tenha pisado numa quadra de <span className="text-primary text-2xl font-display">SQUASH</span>.
         </p>
 
 
