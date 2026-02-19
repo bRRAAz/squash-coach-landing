@@ -30,10 +30,10 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center pt-24 pb-20 md:pt-0 md:pb-0">
         {/* Removi a div de logo que estava aqui no centro para limpar o visual */}
 
-        <h1 className="font-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-foreground leading-[0.9] mb-6">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-foreground leading-[0.9] mb-6">
           O TREINO MAIS<br />
-          <span className="text-gradient-red">INTENSO</span> E<br />
-          <span className="text-primary">VICIANTE</span> QUE EXISTE
+          <span className="text-gradient-red">DINÂMICO</span> E<br />
+          <span className="text-primary">EMPOLGANTE</span> PARA VOCÊ <br />COMEÇAR HOJE.
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
@@ -41,7 +41,7 @@ const HeroSection = () => {
           melhore seu condicionamento e descubra o esporte que vai transformar sua vida.
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
-          Mesmo que você nunca tenha pisado numa quadra de squash.
+          Mesmo que você nunca tenha pisado numa quadra de <span className="text-primary text-2xl font-display">SQUASH</span>.
         </p>
 
 

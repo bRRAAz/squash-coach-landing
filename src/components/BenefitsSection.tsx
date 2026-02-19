@@ -1,4 +1,4 @@
-import { Flame, Heart, Smile, Zap, Users, TrendingUp } from "lucide-react";
+import { Flame, Heart, Smile, Zap, TrendingUp, Clock, Gauge } from "lucide-react";
 
 const benefits = [
   {
@@ -22,16 +22,18 @@ const benefits = [
     title: "DINÂMICO E DIVERTIDO",
     description: "Ritmo acelerado que mantém você engajado do primeiro ao último minuto.",
   },
-  {
-    icon: Users,
-    title: "NETWORKING",
-    description: "Conecte-se com pessoas do mesmo perfil em um ambiente exclusivo e premium.",
-  },
+
   {
     icon: TrendingUp,
-    title: "EVOLUÇÃO EM 2 MESES",
-    description: "Com acompanhamento profissional, a evolução é visível e mensurável rapidamente.",
+    title: "CONSTÂNCIA",
+    description: "Faça chuva ou faça sol, frio ou calor — você sempre consegue treinar.",
   },
+
+  {
+    icon: Clock,
+    title: "PRATICIDADE E FLEXIBILIDADE",
+    description: "Fácil de adaptar à sua rotina, mesmo com agenda cheia.",
+  }
 ];
 
 const BenefitsSection = () => {
