@@ -37,7 +37,7 @@ const VideoSection = () => {
           {/* Descrição abaixo do vídeo (opcional) */}
           <div className="mt-8 text-center">
             <p className="text-muted-foreground font-body text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-              Sinta a velocidade e a dinâmica do treino. Uma experiência
+              Sinta a velocidade e a dinâmica do jogo. Uma experiência
               imersiva que leva seu jogo para o próximo nível.
             </p>
           </div>
