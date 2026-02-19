@@ -6,12 +6,12 @@ const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pe
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Informações sobre aulas particulares de squash em São Paulo">
       {/* Background */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Jogador de squash em ação na quadra"
+          alt="Professor Vitor Vieira dando aulas particulares de squash em São Paulo"
           className="w-full h-full object-cover"
           loading="eager"
         />
