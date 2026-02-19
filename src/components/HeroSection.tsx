@@ -41,7 +41,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
-          Queime até <strong className="text-primary font-semibold">1.000 calorias por hora</strong>,
+          Queime <strong className="text-primary font-semibold">1.000 calorias por hora</strong>,
           melhore seu condicionamento e descubra o esporte que vai transformar sua vida.
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
