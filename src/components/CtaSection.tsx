@@ -1,6 +1,6 @@
 import { Instagram, MessageCircle, ShieldCheck } from "lucide-react";
 import logoVitor from "../assets/logo_vitor.png";
-const INSTAGRAM_LINK = "https://instagram.com/Vitorsvieiras";
+const INSTAGRAM_LINK = "https://instagram.com/Vieirasquash";
 
 const WHATSAPP_LINK = "https://wa.me/5511942045678?text=Olá%20Vitor,%20vim%20pela%20sua%20página%20e%20quero%20agendar%20minha%20aula%20experimental%20gratuita%20de%20squash";
 
@@ -62,7 +62,7 @@ const CtaSection = () => {
         </div>
 
         <p className="mt-8 font-body text-xs text-muted-foreground/50 border-t border-white/5 pt-8">
-          © {new Date().getFullYear()} Vitor Vieira — Treinador de Squash Premium
+          © {new Date().getFullYear()} Vitor Vieira — Treinador de Squash em São Paulo. Todos os direitos reservados.
         </p>
       </div>
     </section>

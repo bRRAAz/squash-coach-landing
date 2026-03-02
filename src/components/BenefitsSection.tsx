@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: Flame,
     title: "ALTA QUEIMA CALÓRICA",
-    description: "Até 1.000 calorias por hora — um dos esportes com maior gasto energético do mundo.",
+    description: "1.000 calorias por hora — um dos esportes com maior gasto energético do mundo.",
     highlight: false,
   },
   {

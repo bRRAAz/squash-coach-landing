@@ -37,7 +37,7 @@ const AuthoritySection = () => {
             </div>
             <div className="text-center lg:text-left">
               <p className="text-muted-foreground font-body text-base md:text-lg max-w-xl leading-relaxed">
-                Atleta profissional e treinador premium na zona sul de São Paulo.
+                Atleta profissional e treinador na zona sul de São Paulo.
                 Uma carreira inteira dedicada a formar jogadores de squash a alcançar o alto nível.
               </p>
             </div>

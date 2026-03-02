@@ -27,7 +27,7 @@ const HeroSection = () => {
           className="h-8 md:h-10 w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
         />
         <p className="text-foreground/50 font-body text-xs ml-3">
-          Aulas Particulares • Domicílio e Condomínios
+          Aulas Particulares • Em Domicílio e Condomínios
         </p>
         <p className="sr-only">Oferecemos aulas particulares de squash personalizadas na região de São Paulo, com foco em iniciantes e treinamento intensivo.</p>
       </div>
@@ -36,14 +36,15 @@ const HeroSection = () => {
         {/* Removi a div de logo que estava aqui no centro para limpar o visual */}
 
         <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-foreground leading-[0.9] mb-6">
-          O TREINO MAIS<br />
-          <span className="text-gradient-red">DINÂMICO</span> E<br />
-          <span className="text-primary">EMPOLGANTE</span> PARA VOCÊ <br />COMEÇAR HOJE.
+          SUA HORA É <br />
+          <span className="text-gradient-red">AGORA.</span> <br />GANHE
+          <span className="text-primary"> TEMPO.</span>
+          <br />MAIS RESULTADO.
         </h1>
 
         <p className="text-foreground/70 font-body text-base md:text-lg max-w-2xl mx-auto mb-4 font-light leading-relaxed">
-          Queime <strong className="text-primary font-semibold">1.000 calorias por hora</strong>,
-          melhore seu condicionamento e descubra o esporte que vai transformar sua vida.
+          Treino de <strong className="text-primary font-semibold">squash </strong>
+          dinâmico para sair do sedentarismo e elevar sua energia e foco em <strong className="text-primary font-semibold">apenas 30 minutos.</strong>
         </p>
         <p className="text-foreground/50 font-body text-sm md:text-base max-w-xl mx-auto mb-10">
           Super fácil de jogar mesmo que você nunca tenha pisado numa quadra de <span className="text-primary text-2xl font-display">SQUASH</span>.
